@@ -1,0 +1,52 @@
+makikouhei@makikouheinoMacBook-Air Documents % ls
+bin			java_sample_mail	originalmysql
+git_challenge		kadai_005		samurai
+git_tutorial		kadai_github
+index.html		originaljava
+makikouhei@makikouheinoMacBook-Air Documents % cd git_challenge
+makikouhei@makikouheinoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/makikouhei/Documents/git_challenge/.git/
+makikouhei@makikouheinoMacBook-Air git_challenge % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	hello_world.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+makikouhei@makikouheinoMacBook-Air git_challenge % git add hello_world.txt
+makikouhei@makikouheinoMacBook-Air git_challenge % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   hello_world.txt
+
+makikouhei@makikouheinoMacBook-Air git_challenge % git commit -m "add new file"
+[main (root-commit) 3398e20] add new file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+makikouhei@makikouheinoMacBook-Air git_challenge % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+makikouhei@makikouheinoMacBook-Air git_challenge % git add hello_world.txt
+makikouhei@makikouheinoMacBook-Air git_challenge % git commit -m "日本語を追記"
+[main ddb5f4b] 日本語を追記
+ 1 file changed, 1 insertion(+)
+makikouhei@makikouheinoMacBook-Air git_challenge % git status
+On branch main
+nothing to commit, working tree clean
+makikouhei@makikouheinoMacBook-Air git_challenge % git log --oneline
+ddb5f4b (HEAD -> main) 日本語を追記
+3398e20 add new file
+makikouhei@makikouheinoMacBook-Air git_challenge % 
