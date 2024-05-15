@@ -1,0 +1,37 @@
+html {
+    font-size: 20px;
+}
+body {
+    /* フォントの種類 */
+    font-family: "Arial", "Meiryo", sans-serif;
+    /* 文字を中央にします */
+    text-align: center;
+}
+
+h1 {
+    /* 文字間隔の指定 */
+    letter-spacing: 1.2em;
+    /* 文字に影ををつける */
+    text-shadow: 6px 3px 5px  #000;
+    /* 文字に下線をつける */
+    border-bottom: 5px solid#000;
+}
+
+.google-fonts {
+    /* ここにGoogle Fontsを指定します */
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.pink {
+    color: rgb(255, 192, 203)
+}
+
+.skyblue {
+    color: rgb(135, 206, 235)
+}
+
+.bold{
+    /* 太文字にする */
+    font-weight: bold;
+}
