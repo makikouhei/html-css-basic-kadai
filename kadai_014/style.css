@@ -9,6 +9,8 @@ body {
 }
 
 h1 {
+    /* フォントサイズ指定 */
+    font-size: 40px;
     /* 文字間隔の指定 */
     letter-spacing: 1.2em;
     /* 文字に影ををつける */
