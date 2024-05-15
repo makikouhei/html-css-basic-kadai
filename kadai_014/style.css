@@ -22,7 +22,7 @@ h1 {
 .google-fonts {
     /* ここにGoogle Fontsを指定します */
     font-family: "Josefin Sans", sans-serif;
-    
+  font-optical-sizing: auto;    
 }
 
 .pink {
