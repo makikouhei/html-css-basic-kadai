@@ -10,7 +10,7 @@ body {
 
 h1 {
     /* フォントサイズ指定 */
-    font-size: 40px;
+    font-size: 200%;
     /* 文字間隔の指定 */
     letter-spacing: 1.2em;
     /* 文字に影ををつける */
@@ -33,7 +33,7 @@ h1 {
     color: rgb(135, 206, 235)
 }
 
-.bold{
+#parent{
     /* 太文字にする */
     font-weight: bold;
 }
