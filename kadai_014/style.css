@@ -33,7 +33,7 @@ h1 {
     color: rgb(135, 206, 235)
 }
 
-#parent{
+#parent > p {
     /* 太文字にする */
     font-weight: bold;
 }
