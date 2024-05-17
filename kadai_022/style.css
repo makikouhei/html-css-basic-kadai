@@ -70,7 +70,7 @@ a:hover {
   color: rgb(245,178,168);
 }
 /* 画面幅768px以下のプレークポイント */
-@media screea and (max-width: 768px){
+@media screen and (max-width: 768px){
 
   #parent h2 {
     font-size: 30px;
