@@ -7,6 +7,14 @@ body {
 p {
     font-size: 15px;
 }
+
+.arrow-right {
+  color: #2710d5;
+}
+
+#submit {
+  margin-top: 50px;
+}
 /* PC用のスタイル */
 @media screen and (min-width: 768px) {
 
@@ -855,6 +863,8 @@ header {
     #s2dgs {
       width: 100%;
     }
+
+
     /* プロダクト */
     #product {
       background-color: #fafafa;
@@ -905,6 +915,8 @@ header {
     #product-more > img {
       margin: 0 0 -42px 20px;
     }
+
+
     /* ABOUT US */
     #aboutus {
       margin: 80px 20px 80px 20px;
@@ -965,14 +977,14 @@ header {
       height: auto;
       position: absolute;
       top: 0;
-      left: 0;
+      left: 40px;
       z-index: 30;
     }
 
     .vision-box > span {
       position: absolute;
       top: 0;
-      left: 0;
+      left: 40px;
       z-index: 31;
       margin-right: 20px;
     }
@@ -983,11 +995,55 @@ header {
       margin: 60px 0 0 0;
     }
 
+
     
     
     /* CASES */
+    #cases {
+      margin: 40px auto 40px auto;
+    }
     
+    #cases > ul {
+      display: block;
+      list-style: none;
+      justify-content: center;
+      margin: 0;
+    }
+
+    #cases > h2 {
+      margin-left: 20px;
+    }
+
+    #cases > ul > li {
+      position: relative;
+      width: 95%;
+      margin:40px 0 40px 0;
+    }
+
+    .case-card {
+      background-color: #ffffff;
+      min-height: 400px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    }
     
+    .case-img {
+      width: 100%;
+    }
+    
+    .case-info {
+      padding: 10px 20px 10px 20px;
+    }
+    
+    .case-name {
+      color: #2710d5;
+      font-size: 19px;
+    }
+    
+    .case-content {
+      font-size: 14px;
+    }
+
+
     /* 会社概要 */
     #company {
       margin: 0 20px 0 20px;
